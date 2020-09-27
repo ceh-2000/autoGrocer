@@ -1,0 +1,3 @@
+Subject: Your grocery order was successful!
+
+Hello %s! Here is your order at Giant: %s.
