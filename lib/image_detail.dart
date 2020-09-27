@@ -59,7 +59,7 @@ class _DetailScreenState extends State<DetailScreen> {
                       }""";
 
     http.Response res = await http.post(
-        "https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBc_65dISX1Jr6Eu4p7-MQi1uwGsTc4Ljc",
+        "https://vision.googleapis.com/v1/images:annotate?key=PUBLIC_API_KEY_HERE",
         body: body
     );
 
