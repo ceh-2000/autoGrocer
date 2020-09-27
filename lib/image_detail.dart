@@ -98,7 +98,7 @@ class _DetailScreenState extends State<DetailScreen> {
 
     String bodyFlask = """{"item_list" : "${im}","quantity_list" : "${done}"}""";
 
-    String flask_url = "https://544b8065617a.ngrok.io";
+    String flask_url = "LINK_TO_SERVER_HERE";
     // Our other post request goes here
     http.Response resFlask = await http.post(
         flask_url,
